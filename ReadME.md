@@ -6,7 +6,7 @@ This project is scraping a given url of restaruant website to extract menu items
 
 1. **Clone the repository**
     ```bash
-    https://github.com/entorno0802/ts-scraping-menu-items.git
+    git clone https://github.com/entorno0802/ts-scraping-menu-items.git
 
 2. **Install Node modules**
     ```bash
