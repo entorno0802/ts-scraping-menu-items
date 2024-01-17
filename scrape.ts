@@ -41,7 +41,7 @@ const scrapeWebsite = async (api_key: string, url: string) => {
             functions: [
                 {
                     name: "extract_menus",
-                    description: "Extract all of menu items from html body of restaurant website. Identify menu items by their html content, not by tags because menus are wrapped in normal tags. Fetch all of the prices available for each item.",
+                    description: "Extract all food, drinks and goods that restaurant selling in the html. Fetch all prices available for each item. Must extract all items",
                     parameters: {
                         type: "object",
                         properties: {
@@ -66,7 +66,7 @@ const scrapeWebsite = async (api_key: string, url: string) => {
                     }
                 }
             ],
-            max_tokens: 2000
+            max_tokens: 4000
         });
 
         console.log(JSON.parse(chatCompletion.choices[0].message.function_call?.arguments || "{}"));
