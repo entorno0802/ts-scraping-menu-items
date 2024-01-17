@@ -1,0 +1,25 @@
+{
+  "name": "typescript-restaurant",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/cheerio": "^0.22.35",
+    "@types/node": "^20.11.5",
+    "@types/selenium-webdriver": "^4.1.21",
+    "chromedriver": "^120.0.1",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "openai": "^4.24.7",
+    "punycode": "^2.3.1",
+    "selenium-webdriver": "^4.16.0"
+  }
+}
